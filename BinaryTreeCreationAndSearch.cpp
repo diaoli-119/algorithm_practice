@@ -35,7 +35,7 @@ void CreateBinaryTreeWithBFS(TreeNode *node, int val)
 
 	TreeNode* n;
 	int qLen;
-	if (!q.empty())
+	 (!q.empty())
 	{
 		qLen = q.size();
 		for (int i = 0; i < qLen; i++)
@@ -59,7 +59,6 @@ void CreateBinaryTreeWithBFS(TreeNode *node, int val)
 			}
 			else
 				q.push(n->right);
-			qLen = q.size();
 		}
 	}
 }
