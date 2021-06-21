@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-21 11:59:09
- * @LastEditTime: 2021-06-22 09:50:33
+ * @LastEditTime: 2021-06-22 09:52:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \codility\app.js
@@ -77,9 +77,3 @@ function sum2Zero(n) {
     }
     return res;
 }
-
-const main = () => {
-    console.log(func4(4));
-}
-
-main();
